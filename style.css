@@ -114,6 +114,7 @@ section ul:last-child {
     background-color: black;
     padding-top: 12rem;
     padding-bottom: 10rem;
+    min-height: 100vh; 
 }
 
 .home .home-content h1 {

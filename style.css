@@ -99,6 +99,7 @@ section * {
     gap: 8rem;
     background-color: black;
     padding-top: 12rem;
+    padding-bottom: 15rem; 
 }
 
 .home .home-content h1 {

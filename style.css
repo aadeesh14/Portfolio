@@ -78,8 +78,9 @@ section:target ~ header nav a[href="#skills"]:has(:target),
 }
 
 section {
-    padding: 8rem 9% 5rem;
-    min-height: 100vh;
+  padding: 4rem 9% 3rem;
+  min-height: 70vh;
+
 }
 
 /* Home section */
@@ -254,3 +255,4 @@ ul {
   padding: 2.5rem;
   min-height: 50vh;
 }
+

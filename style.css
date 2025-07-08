@@ -77,11 +77,18 @@ section:target ~ header nav a[href="#skills"]:has(:target),
     border-bottom: 3px solid #b74b4b;
 }
 
+/* ✅ GLOBAL SECTION STYLE */
 section {
-  padding: 2rem 9% 2rem;
-  min-height: 50vh;
+    padding: 2rem 5%;
+    min-height: auto;
+}
 
-
+/* ✅ Remove unwanted space from all children inside sections */
+section * {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* Home section */
@@ -182,15 +189,15 @@ span {
 section h2 {
     font-size: 4rem;
     color: #b74b4b;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Paragraphs inside sections */
 section p,
 section li {
     font-size: 1.6rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
 }
 
 /* Lists */
@@ -243,6 +250,8 @@ ul {
         height: 180px;
     }
 }
+
+/* Skills heading */
 .skills-heading {
     font-size: 2.8rem;
     color: #b74b4b;
@@ -251,4 +260,5 @@ ul {
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
+
 

@@ -249,3 +249,8 @@ ul {
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
+#experience,
+#hobbies {
+  padding: 2.5rem;
+  min-height: 50vh;
+}
